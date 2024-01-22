@@ -6,7 +6,7 @@ windowSize = 140, 70
 
 SCREEN = pygame.display.set_mode(windowSize)
 pygame.display.set_caption('Pixels Fighting')
-pygame.display.set_icon(pygame.transform.scale(pygame.image.load('PixelsFightingIcon.png'), (32,32)))
+# pygame.display.set_icon(pygame.transform.scale(pygame.image.load('PixelsFightingIcon.png'), (32,32)))
 scale = windowSize[0]//gridSize[0], windowSize[1]//gridSize[1]
 
 def setUp():
